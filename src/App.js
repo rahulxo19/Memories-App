@@ -10,6 +10,8 @@ import CreatorOrTag from './components/CreatorOrTag/CreatorOrTag';
 
 const App = () => {
   const user = JSON.parse(localStorage.getItem('profile'));
+console.log(process.env.BACKEND)
+
 
   return (
     <BrowserRouter>
